@@ -1,0 +1,29 @@
+{
+  "name": "aurora-metals",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@tailwindcss/postcss": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest",
+    "lightningcss-wasm": "^1.30.2",
+    "framer-motion": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  },
+  "overrides": {
+    "lightningcss": "npm:lightningcss-wasm@^1.30.2"
+  }
+}
